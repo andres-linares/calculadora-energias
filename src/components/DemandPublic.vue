@@ -55,8 +55,8 @@
       </div>
     </form>
 
-    <div class="flex justify-center">
-      <p class="bg-teal-500 rounded-lg px-5 py-2 text-teal-900 inline-block">
+    <div class="the-result flex justify-center">
+      <p class="the-result__content bg-teal-500 rounded-lg px-5 py-2 text-teal-900 inline-block">
         Demanda máxima de iluminación D <sub>Max I</sub> = {{maxDemand}}W<br>
         Demanda máxima de tomacorrientes D <sub>Max T</sub> = {{outletsDemand}}W<br>
         Máximo número de tomacorrientes = {{outletsQuantity}}<br>

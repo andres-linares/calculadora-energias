@@ -26,7 +26,7 @@
         class="home-container__content__card"
       >
         <img
-          src="@/assets/images/cables.png"
+          src="@/assets/images/cables.jpg"
           class="home-container__content__card__image"
         />
         <div class="home-container__content__card__text">
