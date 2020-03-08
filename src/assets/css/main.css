@@ -1,0 +1,29 @@
+@tailwind base;
+.form-label {
+  @apply tracking-wide text-gray-900 mb-2 text-xs font-bold uppercase;
+}
+@tailwind components;
+
+@tailwind utilities;
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+.fade-enter-to, .fade-leave {
+  opacity: 1;
+}
+
+.fade-shrink-enter-active, .fade-shrink-leave-active {
+  transition: all .5s;
+}
+.fade-shrink-enter, .fade-shrink-leave-to {
+  opacity: 0;
+  transform: scale(1, 0);
+}
+.fade-shrink-enter-to, .fade-shrink-leave {
+  opacity: 1;
+  transform: scale(1, 1);
+}
